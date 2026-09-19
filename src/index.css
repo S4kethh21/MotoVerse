@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #0a0c0f;
+    color: #f5f6f8;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Universal motorcycle video brightness enhancement for showroom fidelity */
+  video {
+    filter: brightness(1.16) contrast(1.05) saturate(1.04);
+  }
+
+  /* Refined dark minimal scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a0c0f;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #262a35;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3f4556;
+  }
+}
+
+@layer utilities {
+  .editorial-shadow {
+    box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.7);
+  }
+
+  .editorial-card {
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+  }
+
+  .editorial-card:hover {
+    transform: translateY(-3px);
+  }
+}
