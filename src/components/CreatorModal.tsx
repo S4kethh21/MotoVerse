@@ -112,7 +112,7 @@ export const CreatorModal: React.FC<CreatorModalProps> = ({ isOpen, onClose }) =
 
           {/* Instagram Link */}
           <a
-            href="https://www.instagram.com/SakethReddy"
+            href="https://www.instagram.com/sakethh07"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center justify-between p-3 rounded-xl bg-[#12151c] hover:bg-[#181d27] border border-[#1e232f] hover:border-red-500/40 transition-all duration-200 cursor-pointer"
@@ -128,7 +128,7 @@ export const CreatorModal: React.FC<CreatorModalProps> = ({ isOpen, onClose }) =
                   Instagram
                 </span>
                 <span className="text-xs font-semibold text-neutral-200 group-hover:text-white transition-colors">
-                  @SakethReddy
+                  @sakethh07
                 </span>
               </div>
             </div>
